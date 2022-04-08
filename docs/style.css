@@ -48,12 +48,12 @@ section .linha
 
 section .linha:nth-child(even) div
 {
-  animation: percorrer 30s linear infinite;
+  animation: percorrer 25s linear infinite;
 }
 
 section .linha:nth-child(odd) div
 {
-  animation: percorrer2 30s linear infinite;
+  animation: percorrer2 25s linear infinite;
 }
 
 @keyframes percorrer
