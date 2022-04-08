@@ -29,7 +29,7 @@ section .linha
   width: 100%;
 }
 
-i
+.icon
 {
   margin: 10px 0;
   padding: 0px 10px;
@@ -39,7 +39,7 @@ i
   user-select: none;
 }
 
-i:hover
+.icon:hover
 {
   transition: 0s;
   color: #0f0;
@@ -54,7 +54,6 @@ section .linha:nth-child(even) div
 section .linha:nth-child(odd) div
 {
   animation: percorrer2 30s linear infinite;
-  color: blue;
 }
 
 @keyframes percorrer
